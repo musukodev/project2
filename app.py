@@ -6,6 +6,8 @@ import requests
 
 from datetime import datetime
 from bson import ObjectId
+
+from dotenv import load_dotenv
 app = Flask(__name__)
 
 pw = "sparta"
